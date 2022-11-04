@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendulum Animation | abreur.com</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        @keyframes pendulum {
+            from {
+                rotate: -25deg;
+            }
+            to {
+                rotate: 25deg;
+            }
+        }
+        #pendulum {
+            margin: 0 auto;
+            margin-top: -36px;
+            display: block;            
+            width: 334px;
+            height: 640px;
+            background: url("img/pendulum.png") no-repeat;
+            transform-origin: 50% top;
+            animation: pendulum 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            transition-timing-function: ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="pendulum">&nbsp;</div>
+    </div>
+</body>
+</html>
