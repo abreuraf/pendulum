@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@keyframes pendulum {
+    from {
+        rotate: -25deg;
+    }
+    to {
+        rotate: 25deg;
+    }
+}
+#pendulum {
+    margin: 0 auto;
+    margin-top: -36px;
+    display: block;            
+    width: 334px;
+    height: 640px;
+    background: url("pendulum.png") no-repeat;
+    transform-origin: 50% top;
+    animation: pendulum 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition-timing-function: ease-in-out;
+}
