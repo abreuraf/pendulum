@@ -1,4 +1,4 @@
 # pendulum
-A simple pendulum using animation 
+A simple pendulum using CSS
 
-Take a look at [Pendulum Animation](https://abreur.com/work/pendulum/)
+Take a look at [Pendulum Animation](https://abreur.com/pendulum/)
